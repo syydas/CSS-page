@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.page {
+    width: 500px;
+    margin: 0 auto 0 auto;
+}
+
+.head {
+    height: 60px;
+    width: 100%;
+    background-color: #32394a;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #32394a;
+}
+
+.return {
+    float: left;
+    margin-left: 30px;
+    background-image: url(../img/返回.png)
+}
+
+.shopping {
+    float: right;
+    margin-right: 25px;
+    background-image: url(../img/购物车.png);
+}
+
+.text {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 15px;
+    font-size: larger;
+    color: white;
+    background-color: #32394a;
+}
