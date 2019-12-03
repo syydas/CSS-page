@@ -1,12 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+}
+
+.content {
+    width: 100%;
     background-color: black;
 }
 
 .page {
     width: 600px;
     margin: 0 auto 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
 }
 
 .head {
@@ -20,7 +26,6 @@
     height: 30px;
     margin-top: 20px;
     background-size: 100% 100%;
-    background-color: #32394a;
 }
 
 .return {
@@ -39,9 +44,8 @@
     display: inline-block;
     margin-left: 40px;
     padding-top: 20px;
-    font-size: larger;
+    font-size: 23px;
     color: white;
-    background-color: #32394a;
 }
 
 .banner {
@@ -74,4 +78,35 @@
 
 .dots3 {
     background-color: #c2cdc8;
+}
+
+.tags {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.tags-line {
+    height: 90px;
+    width: 100%;
+}
+
+.tags-line a {
+    display: inline-block;
+    height: 40%;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding-top: 2%;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.tags-line a:hover {
+    background-color: #ff2d50;
+    color: white;
 }
